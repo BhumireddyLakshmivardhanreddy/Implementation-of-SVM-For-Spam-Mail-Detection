@@ -41,8 +41,8 @@ data.info()
 data.isnull().sum()
 
 
-x=data["v1"].values
-y=data["v2"].values
+x=data["v2"].values
+y=data["v1"].values
 
 
 from sklearn.model_selection import train_test_split
